@@ -65,6 +65,7 @@ nav ul li{
 #myprogressbar{
     width: 80vw;
     text-align: center;
+    cursor: pointer;
 }
 .icons{
     margin:12px,0;
@@ -95,4 +96,8 @@ cursor: pointer;
 .songinfo{
     position: absolute;
     left:10vw
+}
+.songinfo img{
+    opacity: 0;
+    transition:opacity 0.8s ease-in;
 }
